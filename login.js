@@ -1,12 +1,12 @@
-const loginFrom = document.querySelector("#login_form")
+const loginFrom = document.querySelector("#login_form");
 
 
 
 
-function BtnClick() {
+function onLoginSubmit() {
    
-    console.log("click!!!")
-    return false;
+const notusername = loginName.value;
+console.log(notusername)
 }
 
-loginFrom.addEventListener("click", BtnClick);
+loginFrom.addEventListener("submit",BtnClick)
