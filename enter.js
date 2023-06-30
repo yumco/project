@@ -1,5 +1,3 @@
-// const NextButn = document.querySelector("#enter_show_nextbtn");
-
-// NextButn.addEventListener("click",function()){
-
-// }
+// $(window).load(function(){
+//     $('.enter').delay('8000').fadeOut();
+// });
